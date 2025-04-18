@@ -1,0 +1,141 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body {
+     font-family: "Young Serif", serif;
+     background-color: #f3e6d8;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 40px;
+}
+
+.container {
+     max-width: 650px;
+     background-color: white;
+     padding: 30px;
+     border-radius: 15px;
+     margin: 40px auto;
+}
+
+.recipe-img {
+     border-radius: 13px;
+     width: 100%;
+}
+
+h1 {
+     font-size: 35px;
+     margin-bottom: 15px;
+}
+
+p {
+     font-size: 20px;
+     margin-bottom: 15px;
+     color: #474446;
+
+}
+
+.time {
+     background-color: #fff5fa;
+     padding: 20px;
+     margin-bottom: 20px;
+     border-radius: 8px;
+
+}
+
+.time h3 {
+     color: #7b284f;
+     font-size: 20px;
+
+}
+
+.time ul {
+     list-style: inside;
+     padding: 14px;
+}
+
+
+.time li {
+     padding: 4px;
+     font-size: 20px;
+     color: #474446;
+
+}
+
+h2 {
+     color: #854632;
+     margin-top: 20px;
+     margin-bottom: 10px;
+
+}
+
+.ingredients {
+     margin-left: 20px;
+     margin-bottom: 20px;
+
+}
+
+li {
+     padding: 7px;
+     font-size: 20px;
+     color: #474446;
+}
+
+
+ul li::marker {
+     color: #7b284f;
+}
+
+ol li::marker {
+     color: #7b284f;
+}
+
+.instructions {
+     margin-left: 20px;
+     margin-bottom: 20px;
+}
+
+.table {
+     width: 100%;
+     padding: 10px;
+}
+
+.table td {
+     padding: 5px;
+
+}
+
+#data {
+     color: #854632;
+}
+
+@media(max-width:478px) {
+     body {
+          padding: 10px;
+     }
+
+     .container {
+          padding: 10px;
+          margin: 20px;
+     }
+
+     h1 {
+          font-size: 20px;
+     }
+
+     p {
+          font-size: 15px;
+     }
+
+     .time li {
+          font-size: 15px;
+     }
+
+     li {
+          font-size: 15px;
+     }
+
+}
