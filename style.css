@@ -18,7 +18,7 @@ body {
      background-color: white;
      padding: 30px;
      border-radius: 15px;
-     margin: 40px auto;
+     margin: 60px auto;
 }
 
 .recipe-img {
@@ -26,7 +26,7 @@ body {
      width: 100%;
 }
 
-h1 {
+k h1 {
      font-size: 35px;
      margin-bottom: 15px;
 }
